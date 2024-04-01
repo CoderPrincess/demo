@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_bottom"
+    app:startDestination="@id/editUserNameFragment">
+
+    <fragment
+        android:id="@+id/editUserNameFragment"
+        android:name="com.example.taskbottomnav.EditUserNameFragment"
+        android:label="EditUserNameFragment"/>
+    <fragment
+        android:id="@+id/userNameListFragment"
+        android:name="com.example.taskbottomnav.UserNameListFragment"
+        android:label="fragment_user_name_list"
+        tools:layout="@layout/fragment_user_name_list" />
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="com.example.taskbottomnav.WebViewFragment"
+        android:label="fragment_web_view"
+        tools:layout="@layout/fragment_web_view" />
+</navigation>
