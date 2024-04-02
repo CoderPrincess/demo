@@ -23,7 +23,7 @@ class UserNameListAdapter : ListAdapter<UserDataClass, UserNameListAdapter.UserV
         holder.bind(currentItem)
     }
 
-    inner class UserViewHolder(private val binding: CardViewBinding) : // Todo - how to bring dataBinding in the list adapter
+    inner class UserViewHolder(private val binding: CardViewBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(user: UserDataClass) {
